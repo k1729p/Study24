@@ -1,0 +1,6 @@
+projectKey=Study24
+serverUrl=http://localhost:9000
+serverVersion=24.12.0.100206
+dashboardUrl=http://localhost:9000/dashboard?id=Study24
+ceTaskId=38c2ec44-8a85-46dd-b00d-9cd284a83142
+ceTaskUrl=http://localhost:9000/api/ce/task?id=38c2ec44-8a85-46dd-b00d-9cd284a83142

@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: kp.resource.server.controllers.PolicyEnforcerTest
+-------------------------------------------------------------------------------
+Tests run: 20, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.312 s -- in kp.resource.server.controllers.PolicyEnforcerTest

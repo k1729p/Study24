@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"kp.resource.server.controllers","l":"CustomTestProfile"},{"p":"kp.resource.server.controllers","l":"PolicyEnforcerTest"},{"p":"kp.resource.server.controllers","l":"TestHelper"}];updateSearchResults();
