@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"kp.resource.server.model","l":"ClassificationLevel"},{"p":"kp.resource.server.controllers","l":"DocumentController"},{"p":"kp.resource.server.controllers","l":"ResourceServerInfoController"},{"p":"kp.resource.server.controllers","l":"UnrestrictedResourceController"}];updateSearchResults();

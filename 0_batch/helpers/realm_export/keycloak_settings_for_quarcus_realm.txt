@@ -1,0 +1,75 @@
+The realm 'quarkus' in 'Keycloak Administration Console'.
+---------------------------------------------------------
+Clients: 'backend-service'
+-	Setting:
+-	-	Valid redirect URIs: 'http://localhost:9092/*'
+-	-	Web origins: *
+-	-	Client authentication: ON
+-	-	Authorization: ON
+-	-	Authentication flow
+-	-	-   Standard flow: ON
+-	-	-   Direct access grants: ON
+-	Authorization:
+-	-	Resources:
+-	-	-	'Official Resource'
+-	-	-	-	URIs: '/api/document/official/*'
+-	-	-	-	URIs: '/api/info'
+-	-	-	-	Associated permission: 'Official Resource Permission'
+-	-	-	'Restricted Resource'
+-	-	-	-	URIs: '/api/document/restricted/*'
+-	-	-	-	Associated permission: 'Restricted Resource Permission'
+-	-	-	'Confidential Resource'
+-	-	-	-	URIs: '/api/document/confidential/*'
+-	-	-	-	Associated permission: 'Confidential Resource Permission'
+-	-	-	'Secret Resource'
+-	-	-	-	URIs: '/api/document/secret/*'
+-	-	-	-	Associated permission: 'Secret Resource Permission'
+-	-	Policies:
+-	-	-	'Official Policy'
+-	-	-	-	Roles: 'official'
+-	-	-	'Restricted Policy'
+-	-	-	-	Roles: 'restricted'
+-	-	-	'Confidential Policy'
+-	-	-	-	Roles: 'confidential'
+-	-	-	'Secret Policy'
+-	-	-	-	Roles: 'secret'
+-	-	Permissions:
+-	-	-	'Official Resource Permission'
+-	-	-	-	Resource: 'Official Resource'
+-	-	-	-	Policies: 'Official Policy'
+-	-	-	'Restricted Resource Permission'
+-	-	-	-	Resource: 'Restricted Resource'
+-	-	-	-	Policies: 'Restricted Policy'
+-	-	-	'Confidential Resource Permission'
+-	-	-	-	Resource: 'Confidential Resource'
+-	-	-	-	Policies: 'Confidential Policy'
+-	-	-	'Secret Resource Permission'
+-	-	-	-	Resource: 'Secret Resource'
+-	-	-	-	Policies: 'Secret Policy'
+Client Scopes:
+-   'roles'
+-   -   Mappers
+-   -   -   'realm roles'
+-   -   -   -   Mapper type: 'User Realm Role'
+-   -   -   -   Name: 'realm roles'
+-   -   -   -   Multivalued: ON
+-   -   -   -   Token Claim Name: 'realm_access.roles'
+-   -   -   -   Claim JSON Type: 'String'
+-   -   -   -   Add to ID token: ON
+-   -   -   -   Add to access token: ON
+-   -   -   -   Add to userinfo: ON
+-   -   -   -   Add to token introspection: ON
+Realm roles:
+-	'official'
+-	-	Users in role: 'alice', 'bob', 'charlie', 'david'
+-	'restricted'
+-	-	Users in role: 'alice', 'bob', 'charlie'
+-	'confidential'
+-	-	Users in role: 'alice', 'bob'
+-	'secret'
+-	-	Users in role: 'alice'
+Users:
+-	'alice'
+-	'bob'
+-	'charlie'
+-	'david'

@@ -1,0 +1,151 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>Study 24</title>
+    <style>
+        body {
+          background-color: lightyellow
+        }
+        th, td {
+        }
+        td.black {
+          padding: 5px;
+          border: 2px solid black;
+        }
+        td.green {
+          padding: 5px;
+          border: 2px solid green;
+        }
+        td.red {
+          padding: 5px;
+          border: 2px solid red;
+        }
+        td.orange {
+          padding: 5px;
+          border: 3px solid orange;
+        }
+    </style>
+</head>
+<body>
+<h1>Study 24</h1>
+
+<table><tr><td>
+    <table>
+        <tr>
+            <td class="orange">Keycloak Administrator Console</td>
+            <td class="orange"><a href="https://localhost:8443/admin">
+                https://localhost:8443/admin</a>
+            </td>
+            <td class="orange">Keycloak started in production mode</td>
+        </tr>
+    </table>
+</td><td>
+    <table>
+        <tr>
+            <td class="black"><b>Keycloak Administrator Username</b></td>
+            <td class="black">admin</td>
+        </tr>
+        <tr>
+            <td class="black"><b>Keycloak Administrator Password</b></td>
+            <td class="black">admin</td>
+        </tr>
+    </table>
+</td></tr></table>
+
+<hr>
+
+<table>
+    <tr>
+        <td class="green">Official Document</td>
+        <td class="green"><a href="http://localhost:9092/api/document/official">
+            http://localhost:9092/api/document/official</a>
+        </td>
+    </tr>
+    <tr>
+        <td class="green">Restricted Document</td>
+        <td class="green"><a href="http://localhost:9092/api/document/restricted">
+            http://localhost:9092/api/document/restricted</a>
+        </td>
+    </tr>
+    <tr>
+        <td class="green">Confidential Document</td>
+        <td class="green"><a href="http://localhost:9092/api/document/confidential">
+            http://localhost:9092/api/document/confidential</a>
+        </td>
+    </tr>
+    <tr>
+        <td class="green">Secret Document</td>
+        <td class="green"><a href="http://localhost:9092/api/document/secret">
+            http://localhost:9092/api/document/secret</a>
+        </td>
+    </tr>
+    <tr><td colspan="2" class="green"></td></tr>
+    <tr>
+        <td class="green">Resource Server Information</td>
+        <td class="green"><a href="http://localhost:9092/api/info">
+            http://localhost:9092/api/info</a>
+        </td>
+    </tr>
+    <tr><td colspan="2" class="green"></td></tr>
+    <tr>
+        <td class="green">Unrestricted</td>
+        <td class="green"><a href="http://localhost:9092/unrestricted">
+            http://localhost:9092/unrestricted</a>
+        </td>
+    </tr>
+</table>
+
+<hr>
+
+<table>
+    <tr>
+        <td class="red">Resource Server 'HTML' Root</td>
+        <td class="red"><a href="http://localhost:9092/">
+            http://localhost:9092/</a>
+        </td>
+        <td class="red">Status code <mark>403 Forbidden</mark></td>
+    </tr>
+    <tr>
+        <td class="red">Api Document</td>
+        <td class="red"><a href="http://localhost:9092/api/document">
+            http://localhost:9092/api/document</a>
+        </td>
+        <td class="red">Status code <mark>403 Forbidden</mark></td>
+    </tr>
+    <tr>
+        <td class="red">Unknown Subpath</td>
+        <td class="red"><a href="http://localhost:9092/api/document/official/unknown">
+            http://localhost:9092/api/document/official/unknown</a>
+        </td>
+        <td class="red">Status code <mark>404 Not Found</mark>, Keycloak response <i>"Resource not found"</i></td>
+    </tr>
+    <tr><td colspan="3" class="red"></td></tr>
+    <tr>
+        <td class="red">Resource Server 'REST' (on Docker)</td>
+        <td class="red"><a href="http://localhost:8081/api/document/official">
+            http://localhost:8081/api/document/official</a>
+        </td>
+        <td class="red">Status code <mark>401 Unauthorized</mark></td>
+    </tr>
+</table>
+
+<hr/>
+
+<table>
+    <tr>
+        <td class="black"><b>Username</b></td>
+        <td class="black">alice</td>
+        <td class="black">bob</td>
+        <td class="black">charlie</td>
+        <td class="black">david</td>
+    </tr>
+    <tr>
+        <td class="black"><b>Password</b></td>
+        <td  class="black"colspan="4" style="text-align:center">miki</td>
+    </tr>
+</table>
+
+<hr>
+</body>
+</html>

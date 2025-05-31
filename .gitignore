@@ -1,0 +1,16 @@
+.idea
+.settings
+logs
+target
+.classpath
+.project
+*.iml
+.dockerignore
+resource-server-html/.settings
+resource-server-html/target
+resource-server-html/.classpath
+resource-server-html/.project
+resource-server-rest/.settings
+resource-server-rest/target
+resource-server-rest/.classpath
+resource-server-rest/.project
